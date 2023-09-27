@@ -49,9 +49,7 @@ const Formulario = (props) => {
                     label="Time" 
                     itens={props.times} 
                     valor={time} 
-                    aoAlterado={valor => setTime(valor)}
-
-                    />
+                    aoAlterado={valor => setTime(valor)}/>
                 <Botao>
                     Criar Card
                 </Botao>
